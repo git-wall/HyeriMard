@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A1F4FF"
+    tools:context=".Activity.ChooseActivity">
+
+    <ImageView
+        android:id="@+id/ic1"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/alochat"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/nextButton"
+        app:layout_constraintEnd_toEndOf="@+id/ic1"
+        app:layout_constraintStart_toStartOf="@+id/ic1"
+        app:layout_constraintTop_toTopOf="@+id/ic1" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/changeInformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image"
+        app:layout_constraintBottom_toBottomOf="@id/profile_image"
+        app:layout_constraintEnd_toEndOf="@id/profile_image" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/nextButton"
+        android:layout_width="250dp"
+        android:layout_height="125dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_rawRes="@raw/next_button" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/letchat"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nextButton"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/lets_chat" />
+</androidx.constraintlayout.widget.ConstraintLayout>

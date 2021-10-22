@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/bg_white_corner">
+
+    <ImageView
+        android:id="@+id/bg_user"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/bg_thiennhien_corner"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="65dp"
+        android:src="@color/black"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/SendMess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/messagebubble"
+        app:layout_constraintStart_toStartOf="@id/logo"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvsend"
+        android:text="Send message"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@id/SendMess"
+        app:layout_constraintStart_toStartOf="@id/SendMess"
+        app:layout_constraintTop_toBottomOf="@id/SendMess" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/CallVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/callvideo"
+        app:layout_constraintEnd_toEndOf="@id/logo"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <TextView
+        android:id="@+id/tvcall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call video"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="@id/CallVideo"
+        app:layout_constraintStart_toStartOf="@id/CallVideo"
+        app:layout_constraintTop_toBottomOf="@id/CallVideo" />
+    <TextView
+        android:id="@+id/idUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="id"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvcall" />
+    <TextView
+        android:id="@+id/NameInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/idUser" />
+
+    <ImageView
+        android:id="@+id/nam_nu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:src="@drawable/womens_day"
+        app:layout_constraintBottom_toBottomOf="@id/logo"
+        app:layout_constraintEnd_toEndOf="@id/logo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

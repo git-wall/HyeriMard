@@ -1,4 +1,4 @@
-### Hi there 👋 🔭 I’m currently working on ...
+### Hi there 👋 🔭 I’m Thanh from VietNam
 
 <!--
 **HyeriMard/HyeriMard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -13,5 +13,3 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-Hi everyone this is a project that i did with android with socket io
-This is a simple chat with many people

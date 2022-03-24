@@ -1,4 +1,9 @@
-### Hi there 👋 🔭 I’m Thanh from VietNam
+### Hi there 👋 🔭 I’m Thanh from VietNam <! rất vui khi bạn ghé thăm cứ lấy thứ gì mà bạn cần ~(^.^)~ !>
+    Hay ya!~~ hãy cố mỉm cười cho dù ngày mai có sao đi chăng nữa 
+     ~Tôi âm thầm nhìn dòng đời lặng lẽ!
+      Đưa tôi qua những khúc rẽ cuộc đời.
+      Đời còn dài, còn bao nhiêu ngã rẽ.
+      Rẽ lối nào cho đời bớt chông gai!...
 
 <!--
 **HyeriMard/HyeriMard** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
